@@ -59,17 +59,21 @@ header.masthead {
   }
 }
 
-#problem .problem-item {
+.problem-item {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-#problem .problem-item img {
+.problem-item img {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #problem .problem-item img {
+  .problem-item img {
     margin-bottom: 0px;
   }
+}
+
+.team-member h4.team-member-header {
+  margin-bottom: 1em;
 }
