@@ -1,6 +1,36 @@
+#mainNav .navbar-brand {
+    font-family: 'Gugi', 'Helvetica Neue',Helvetica,Arial,cursive;
+}
+
 .header-brand {
-  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  font-family: 'Gugi','Helvetica Neue',Helvetica,Arial,cursive;
   color: #fed136;
+  font-size: 35px;
+}
+
+@media (min-width: 768px) {
+  .header-brand {
+    font-family: 'Gugi','Helvetica Neue',Helvetica,Arial,cursive;
+    color: #fed136;
+    font-size: 45px;
+  }
+}
+
+
+header.masthead .intro-text .intro-heading {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text .intro-heading  {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 5px;
+  }
 }
 
 
@@ -21,4 +51,25 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .timeline > li {
+    margin-bottom: 50px;
+  }
+}
+
+#problem .problem-item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#problem .problem-item img {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #problem .problem-item img {
+    margin-bottom: 0px;
+  }
 }
