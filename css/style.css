@@ -78,3 +78,12 @@ header.masthead {
 .team-member h4.team-member-header {
   margin-bottom: 1em;
 }
+
+
+footer {
+  text-align: left;
+}
+
+footer .list-inline-item a {
+  text-align: center;
+}
